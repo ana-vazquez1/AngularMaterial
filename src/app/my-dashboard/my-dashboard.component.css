@@ -1,0 +1,41 @@
+
+.dashboard-card {
+  width: 95%;
+  box-shadow: 0px 0px 5px gray;
+  height: 70vh;
+}
+
+a{
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 6px;
+  border-radius: 7px;
+  color: black;
+  margin-top: 10px;
+  }
+  a:hover{
+    background-color: black;
+    color: white;
+  }
+ img{
+  width: 18vw;
+  border-radius: 5px;
+  display: inline;
+  border: solid rgb(80, 80, 80) 1px;
+ }
+ mat-card-title{
+  color: blueviolet;
+  font-size: larger;
+  width: 100%;
+}
+.dashboard-card:hover {
+  transform: rotate3d(360deg);
+  transform: scale(1.03,1.03);
+  transition: all(3seg);
+}
+
+@media  screen and (max-width:720px){
+  .dashboard-card {
+    height: 50vh;
+  }
+}
